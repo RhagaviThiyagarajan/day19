@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Assignments/assign19/style.css">
+</head>
+<body>
+   
+
+        <div class="flex-container">
+            <div class="row">
+                <div class="col-md-3">
+    <form>
+        <table class="calculator">
+            <tr>
+                <td colspan="2">
+                    <input class="display-box" type="text" id="result"  disabled>
+                    </td>
+                    <td>
+                        <input class="button" type="button" value="C" onclick="clearscreen()" style="background-color: whitesmoke;border: 37px;
+                        width: 46px;
+                        margin: -7px 15px;">
+
+                    </td>
+
+                    <!--1st ROW-->
+                    <div class="shape">
+                    <tr>
+                       
+
+                        <td>
+                            <input class="buton" type="button" value="1" onclick="display('1')" style="background-color:purple;padding:20px;"></button>
+                        </td>
+                        <td>
+                            <input class="button" type="button" value="2" onclick="display('2')" style="background-color:purple;padding:20px;"></button>
+                        </td>
+                        <td>
+                            <input class="button" type="button" value="3" onclick="display('3')" style="background-color:purple;padding:20px;"></button>
+                        </td>
+                        <td>
+                            <input class="button" type="button" value="/" onclick="display('/')" style="background-color:purple;padding:20px;"></button> 
+                        </td>
+                    </tr>
+
+<!--2ND ROW-->
+                    <tr>
+                        <td>
+                            <input class="button" type="button"  value="4" onclick="display('4')" style="background-color:purple;padding:20px;"></button>
+                        </td>
+                        <td>
+                            <input class="button" type="button" value="5" onclick="display('5')" style= "background-color:purple;padding:20px;"></button>
+                    </td>
+                    <td>
+                        <input class="button" type="button" value="6" onclick="display('6')" style="background-color:purple;padding:20px;"></button>
+                    </td>
+                    <td>
+                        <input class="button" type="button" value="-" onclick="display('-')" style="background-color:purple;padding:20px;"></button>
+                    </td>
+                    </tr>
+<!--3RD ROW-->
+                    <tr>
+                    <td>
+                        <input class="button" type="button" value="7" onclick="display('7')" style="background-color:purple;padding:20px;"></button>
+                    </td>
+                    <td>
+                        <input class="button" type="button" value="8" onclick="display('8')" style="background-color:purple;padding:20px;"></button>
+                    </td>
+                    <td>
+                        <input class="button" type="button" value="9" onclick="display('9')" style="background-color:purple;padding:20px;"></button>
+                    </td>
+                    <td>
+                        <input class="button" type="button" value="+" onclick="display('+')" style="background-color:purple;padding:20px;"></button>
+                    </td>
+
+                   </tr>
+                   </tr>
+
+                   <!--4TH ROW-->
+                   <tr>
+                       <td>
+                           <input class="button" type="button" value="." onclick="display('.')" style="background-color:purple;padding:20px;"></button>
+                       </td>
+                       <td>
+                           <input class="button" type="button" value="0" onclick="display('0')" style="background-color:purple;padding:20px;"></button>
+
+                       </td>
+                       <td>
+                           <input class="button" type="button" value="="onclick="calculate()" style="background-color:pink;padding:20px;"></button>
+
+                       </td>
+                       <td>
+                           <input class="button" type="button" value="*" onclick="display('*')" style="background-color:purple;padding:20px;"></button>
+                       </td>
+
+                   </tr>
+                   </table>
+                   </form>
+                   </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="script.js"></script>
+            </body>
+            </html>
